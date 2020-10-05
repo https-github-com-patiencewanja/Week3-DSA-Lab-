@@ -1,0 +1,14 @@
+PROGRAM <OddNumberAverage>:
+START
+input StoppingNumber
+StoppingNumber=s
+n=1,sum = 0,count = 0,average
+WHILE ( n<=s)
+  n=n+2
+END WHILE
+Display  "OddNumbers include: " +n
+sum = sum + n, count = count + 1
+average = sum/count
+Display “ The average is: ” + average
+
+ END.
